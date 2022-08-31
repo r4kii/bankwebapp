@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/homePage.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script type="text/javascript" src="js/homePage.js"></script>
+    <title>XYZ BANK</title>
+  </head>
+  <body>
+    <div class='container'>
+      <div class="form_container">
+        <h1 class="heading">Welcome to XYZ Bank</h1>
+        <div class="form-section">
+          <form id='form1'>
+            <br>
+            <label for="text">Name: </label>
+            <br>
+            <input id="namer" type="text" name="name" required>
+            <br>
+            <label for="email">Email-Id:</label>
+            <br>
+            <input id="emailr" type="email" name="emailId" required>
+            <br>
+            <small id="existingUser" style="color: red;">Email-Id already Present <br>
+            </small>
+            <label for="password">Password:</label>
+            <br>
+            <input id="passwordr" type="password" name="password">
+            <br>
+            <small id="passwordinvalid">Password should contain minimum 8 characters, atleast one uppercase,special character and a digit. <br>
+            </small>
+            <label for="password">Confirm Password:</label>
+            <br>
+            <input id="passwordcheck" type="password" name="password" required>
+            <br>
+            <small id="passcheck" style="color: red;"> **Password didn't match </small>
+            <br>
+            <input type="submit" class="submit-btn" id="registerButton" value="Register">
+            <p> Already Registered <b id="login">Log In</b>
+            </p>
+          </form>
+          <p id="afterreg"></p>
+          <button id="afterregbut" type="button" style="width: 60px; height: 30px">SignIn</button>
+          <form id='form2'>
+            <br>
+            <label for="text">Customer ID:</label>
+            <br>
+            <input type="text" name="customerID" id="customerId" value="" placeholder="">
+            <br>
+            <label for="password">Password:</label>
+            <br>
+            <input type="password" name="password" id="password" value="">
+            <br>
+            <br>
+            <small id="invaliduser" style="color: red;">Invalid username or password</small>
+            <br>
+            <input type="submit" class="submit-btn" id="loginButton" value="Login">
+            <p> New User <b id="register">Register</b>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

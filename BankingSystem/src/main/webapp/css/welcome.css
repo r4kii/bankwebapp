@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.parentContainer {
+	margin: 3% 10%;
+}
+
+input {
+	margin-bottom: 15px;
+}
+
+h3, .formStyle {
+	font-size: 25px;
+	margin-bottom: 10px;
+	line-height: 90px;
+	color: #293462;
+}
+
+span:hover {
+	box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+	margin-right: 80%;
+	border-right: 3px solid #222831;
+}
+
+.formContainer {
+	margin-top: 30%;
+	margin-bottom: 30%;
+}
+
+.formStyle {
+	display: block;
+	margin: 20% 30% 20%;
+}
+
+.withDrawStyle, .depositStyle {
+	padding: 5%;
+	box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 15px;
+	margin: -50% auto auto 30%;
+	font-size: 20px;
+}
+
+.accountStyle {
+	padding: 5%;
+	box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 15px;
+	margin: -50% auto auto 30%;
+	font-size: 20px;
+}
+
+input {
+	margin-top: 13px;
+	border-radius: 10px;
+	height: 20px;
+	width: 250px;
+}
+
+.submit-btn {
+	height: 40px;
+	width: 125px;
+	border: 0;
+	background: #4CB8C4; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #3CD3AD, #4CB8C4);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #3CD3AD, #4CB8C4);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.history-table, .formStyle {
+	padding: 5%;
+	box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 15px;
+	margin: -55% 25% auto;
+}
+
+#historyDiv {
+	height: 300px;
+	width: 700px;
+	overflow-y: scroll;
+}
+
+.search-btn {
+	height: 25px;
+	width: 100px;
+	border: 0;
+	color: white;
+	background: #56CCF2; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #2F80ED, #56CCF2);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+span {
+	display: inline-block;
+	width: 190px;
+	height: 80px;
+	text-align: center;
+	background: white;
+	padding: 5%;
+	border: 0;
+	border-radius: 15px;
+}
+
+.section{
+	background: #A2B5BB;
+}
+
+#historyTable { /* background-color:#eee; */
+	border-collapse: collapse;
+}
+
+#historyTable tr:nth-child(even) {
+	background-color: #E8F9FD
+}
+
+#historyTable th {
+	background-color: #1C3879;
+	color: white;
+	padding: 15px;
+}
+
+#historyTable td {
+	padding: 5px;
+	border: 1px solid #000;
+	text-align: center;
+	padding: 10px;
+}

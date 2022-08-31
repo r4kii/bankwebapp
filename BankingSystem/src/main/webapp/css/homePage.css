@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.form_container {
+	box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2);
+	padding: 10%;
+	/* border: 2px solid white; */
+	border-radius: 15px;
+	position: relative
+}
+
+.submit-btn {
+	height: 40px;
+	width: 125px;
+	border: 0;
+	border-radius: 15px;
+	background: #4CB8C4; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #3CD3AD, #4CB8C4);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #3CD3AD, #4CB8C4);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: white;
+}
+
+input {
+	margin-top: 13px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	height: 20px;
+	width: 250px;
+}
+
+p {
+	font-size: 18px;
+}
+
+label {
+	font-size: 20px;
+}
+
+.heading {
+	margin-top: -10%;
+}
+
+.form-section {
+	display: flex;
+	justify-content: center;
+}
+
+#afterregbut {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
